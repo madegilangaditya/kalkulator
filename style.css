@@ -1,61 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Khula');
-body{
-	font-family:'Khula', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
 	font-size: 18px;
+	font-family: "Roboto Mono";
 }
 
-#calculator{
+#calculator {
 	margin: auto;
 	width: 400px;
 	box-shadow: 0 0 25px Grey;
 	border-radius: 10px;
 }
 
-header{
+header {
 	padding: 1.5em;
 	text-align: right;
-	background: indigo;
+	background: Indigo;
 	color: white;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
 
-header #detail{
+header #detail {
 	font-size: .8em;
 }
 
-header #result{
+header #result {
 	font-size: 2em;
 }
 
-header #result span{
+header #result span {
 	float: left;
 }
 
-#keys{
+#keys {
 	overflow: auto;
 }
 
-#keys button{
+#keys button {
 	width: 25%;
 	float: left;
-	cursor: pointer;
 	border: none;
+	cursor: pointer;
 	padding: 2em;
 	background: none;
-	font-family: 'Khula', sans-serif;
-	font-size: 14px;
+
+	font-family: "Roboto Mono";
 }
 
 #keys button:hover {
 	background: LightGrey;
 }
 
-#keys button:focus{
+#keys button:focus {
 	outline: none;
 }
 
-#keys button:active{
-	box-shadow: 0 0 10px LightGrey;
+#keys button:active {
+	box-shadow: 0 0 5px LightGrey;
 }
-
